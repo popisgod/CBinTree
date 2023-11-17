@@ -1,5 +1,4 @@
 #include <stdlib.h>
-
 #ifndef BIN_NODE_H
 #define BIN_NODE_H
 
@@ -23,7 +22,7 @@ struct binNode {
 
 void delete(binNode*);
 void nodeSetup(binNode*); 
-void setValue(binNode*, int);
+void setValue(binNode*, void*, size_t);
 void setRightNode(binNode*,binNode*); 
 void setLeftNode(binNode*,binNode*); 
 void* getValue(binNode*);
