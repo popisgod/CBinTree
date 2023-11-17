@@ -1,5 +1,5 @@
 CC = cl
-CFLAGS = /EHsc
+CFLAGS = 
 SRC = main.c binTree.c
 HEADERS = binTree.h
 TARGET = main.exe
